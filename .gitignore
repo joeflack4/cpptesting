@@ -1,0 +1,87 @@
+# Inputs
+/env/
+Input files/
+input/
+
+# Outputs
+*outSA_*
+
+# IDE
+.idea/
+.vscode/
+*.xcodeproj/
+*.code-workspace
+
+# Personal directories
+/dev/
+
+# Build directories
+## Cmake
+# - CMake auto-generates a `Makefile`; so adding it here. Not to be confused w/
+# the lowercase, custom-made `makefile`, which we do commit.
+Makefile
+CMakeCache.txt
+CMakeFiles/
+cmake-build-debug/
+cmake_install.cmake
+*.cbp
+## Misc
+/Build/
+/build/
+
+# Personal directories
+/dev
+
+# Package management
+## Buckaroo
+.buckconfig.d/
+.buckd/
+buckaroo/
+buck-out/
+.buckconfig.local
+buckaroo_macros.bzl
+## Conan
+conanbuildinfo.*
+conaninfo.*
+conan.lock
+graph_info.json
+
+# OS
+## MacOS
+.DS_Store
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+## Globs
+*.exe
+*.out
+*.app
+## Explicit executable 'mdrtb' with no extension
+mdrtb
